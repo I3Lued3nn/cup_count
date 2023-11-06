@@ -20,20 +20,21 @@ mais.onclick = function(){
 
 
 menos.onclick = function(){
+     if(result <= 0){
+        return;
+    } 
     result--;
     cups.textContent = result;
-   
-    if(result <= 0){
-        result = 1;
+    
+   if(litros <= 0){
+        litros = 200 ;
     }
-
+    
     litros -= 200;
     volu.textContent = litros + "ml";
     if(litros >= 1000){
         volu.textContent = litros/1000 + "L"
     }
 
-    if(litros <= 0){
-        litros = 200 ;
-    }
+    
 }
