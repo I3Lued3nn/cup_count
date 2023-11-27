@@ -1,0 +1,6 @@
+SQL :
+1 - precisamos guardar dados(resultado da quantidade de COPOS de agua tomados)
+2 - tabela de dados: dia|mes|ano|hora|quantidade|litros|
+3 - analisar a tabela: média|bebeu mais em(dia|mês|ano)|bebeu menos em(dia|mês|ano)
+4 - ilustrar graficamente : a média do(dia ou semana ou mês), utilizar os dados fornecidos das tabelas
+
