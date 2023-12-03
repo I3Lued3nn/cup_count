@@ -3,4 +3,21 @@ SQL :
 2 - tabela de dados: dia|mes|ano|hora|quantidade|litros|
 3 - analisar a tabela: média|bebeu mais em(dia|mês|ano)|bebeu menos em(dia|mês|ano)
 4 - ilustrar graficamente : a média do(dia ou semana ou mês), utilizar os dados fornecidos das tabelas
+5 - ao sair da aplicação o contador deve manter sua contagem e não deve zerar ou mudar o valor já contabilizado (se contabilizou 5 copos, deve manter este valor idenpedente do erro)
+
+
+ALGORITMO
+
+dia|mês|ano|hora|quantidade|litros
+
+acada copo contabilizado deve ser contabilizado na planilha do banco de dados, cada segundo é importe , se ocorre um erro de adicionar copos a mais deve ser corrigido junto com html. 
+
+dia|mês|ano|hora|quantidade|litros
+1   1  2023 07:30,15  1         200ml
+1   1  2023 07:31,00  2         400ml
+1   1  2023 08:00,00  3         600ml
+1   1  2023 08:00,10  4         800ml
+
+
+
 
